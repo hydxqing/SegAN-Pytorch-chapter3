@@ -5,7 +5,7 @@ The chapter3 of the segmentation network summary:
 External links: SegAN: Adversarial Network with Multi-scale L1 Loss for Medical Image Segmentation [paper](https://arxiv.org/pdf/1706.01805.pdf).
 
 ##### These papers' ideas are combining the basic network with GAN.
-Network structure in the paper:[image](https://github.com/hydxqing/SegAN-Pytorch-chapter3/blob/master/picture_in_paper/picture.png)
+Network structure in the paper:![image](https://github.com/hydxqing/SegAN-Pytorch-chapter3/blob/master/picture_in_paper/picture.png)
 
 
 **References**
