@@ -6,6 +6,7 @@ External links: SegAN: Adversarial Network with Multi-scale L1 Loss for Medical 
 
 ##### These papers' ideas are combining the basic network with GAN.
 Network structure in the paper:
+
 ![image](https://github.com/hydxqing/SegAN-Pytorch-chapter3/blob/master/picture_in_paper/picture.png)
 
 This network structure is a reconstruction of loss of the basic segmentation network combined with GAN.
