@@ -7,6 +7,9 @@ External links: SegAN: Adversarial Network with Multi-scale L1 Loss for Medical 
 ##### These papers' ideas are combining the basic network with GAN.
 Network structure in the paper:![image](https://github.com/hydxqing/SegAN-Pytorch-chapter3/blob/master/picture_in_paper/picture.png)
 
+This network structure is a reconstruction of loss of the basic segmentation network combined with GAN.
+
+First, prediction map and label map of basic segmented network (equivalent to generator in this case) were multiplied with input to get prediction-mask and GT-mask respectively. Then, prediction was made by feeding prediction-mask and GT-mask into the discriminant network, and then loss of multi-scale was calculated.
 
 **References**
 
@@ -15,5 +18,3 @@ This code borrows from [xue](https://github.com/YuanXue1993)'s [work](https://gi
 ### Environment: 
   
             Pytorch version >> 0.4.1
-             
-## Notes
